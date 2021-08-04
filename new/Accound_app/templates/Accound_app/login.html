@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block body_block %}
+
+
+<div class="form">
+    <form action="" method="POST">
+        {{form|crispy}}
+        {% csrf_token %}
+        <input class="form-check-input mt-4" type="checkbox" onclick="myFunction()"> <span class="m-2">Show Password</span>
+        <input class="btn btn-outline-secondary m-3"  type="submit" value="Login" id='input'>
+        <p><a href="{% url 'password_reset' %}">@forget password</a></p>
+    </form>
+</div>
+
+<div class="img-50">
+    <img src="{% static 'images/login.png' %}" alt="">
+</div>
+
+
+{% endblock body_block %}

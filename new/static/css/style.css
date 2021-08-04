@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.637);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.521);
+    padding-bottom: 3vh;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+form {
+    width: 700px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    margin-top: 1vh;
+    display: none;
+}
+
+.form input {
+    margin-top: 3vh;
+}
+.form ul{
+    display: none;
+}
+.alert {
+    width: 40%;
+    left: 44.1%;
+    top: 10%;
+}
+
+
+.img img{
+    width: 100%;
+}
+
+.img-50{
+    display: flex;
+    justify-content: center;
+}
+
+.img-50 img{
+width: 50%;
+}
+
+#input{
+    margin-top: 1.1vh;
+}
